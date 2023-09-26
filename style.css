@@ -223,8 +223,8 @@ sun {
   background: #fff;
   border-radius: 100%;
   border: 0.2rem solid #fff;
-  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem grey, 0 0 0.8rem #fff,
-    0 0 2.8rem gray;
+  box-shadow: 0 0 0.2rem palevioletred, 0 0 2rem #f08080, 0 0 0.8rem pink,
+    0 0 2.8rem rgb(255, 183, 0);
 }
 .cloud {
   position: absolute;
@@ -234,13 +234,13 @@ sun {
 #cloud1 {
   transform: scale(0.6);
   right: -500px;
-  filter: invert(34%) sepia(23%) saturate(1339%) hue-rotate(166deg)
-    brightness(90%) contrast(95%);
+  filter: invert(64%) sepia(90%) saturate(395%) hue-rotate(106deg)
+    brightness(94%) contrast(85%);
 }
 #cloud2 {
   left: -700px;
-  filter: invert(34%) sepia(23%) saturate(1339%) hue-rotate(166deg)
-    brightness(90%) contrast(95%);
+  filter: invert(64%) sepia(90%) saturate(395%) hue-rotate(106deg)
+    brightness(94%) contrast(85%);
 }
 
 .paragraph {
@@ -266,6 +266,12 @@ p {
 @media only screen and (max-width: 1100px) {
   section {
     margin: 0 40px;
+  }
+  .letter-img {
+    width: 150px;
+  }
+  #letter2 {
+    width: 150px;
   }
   #cloud1 {
     transform: scale(0.6);
@@ -299,7 +305,10 @@ p {
     justify-content: center;
   }
   .letter-img {
-    transform: scale(0.7);
+    width: 150px;
+  }
+  #letter2 {
+    width: 150px;
   }
   #cloud1 {
     transform: scale(0.6);
@@ -324,6 +333,12 @@ p {
   }
   #sec7 {
     flex-wrap: wrap-reverse;
+  }
+  .letter-img {
+    width: 150px;
+  }
+  #letter2 {
+    width: 150px;
   }
   #cloud1 {
     transform: scale(0.6);
